@@ -1,9 +1,9 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from services.freshness_service import FreshnessService
-from services.spoilage_service import SpoilageService
-from services.priority_service import PriorityService
-from services.route_service import RouteService
+from urbanflux_ai.services.freshness_service import FreshnessService
+from urbanflux_ai.services.spoilage_service import SpoilageService
+from urbanflux_ai.services.priority_service import PriorityService
+from urbanflux_ai.services.route_service import RouteService
 import uvicorn
 import os
 import logging

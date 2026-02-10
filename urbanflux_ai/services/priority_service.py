@@ -1,7 +1,7 @@
 import joblib
 import pandas as pd
 import logging
-from utils.constants import PRIORITY_MODEL_PATH
+from urbanflux_ai.utils.constants import PRIORITY_MODEL_PATH
 
 logger = logging.getLogger(__name__)
 

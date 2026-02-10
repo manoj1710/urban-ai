@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 import numpy as np
 import logging
-from utils.constants import SPOILAGE_MODEL_PATH
+from urbanflux_ai.utils.constants import SPOILAGE_MODEL_PATH
 
 logger = logging.getLogger(__name__)
 
